@@ -1,7 +1,8 @@
-package main
+package gocs
 
 import "fmt"
 
-func main() {
-	fmt.Println("Hello, Go module!")
+// 导出一个函数
+func Hello() {
+    fmt.Println("Hello, Go module!")
 }
